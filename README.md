@@ -20,6 +20,16 @@ No complexity, no cost, just a one-click install.
 Each app simplifies a process and empowers more people.
 Imagine the impact when everyone gets the right tool for the job, with perfect integration
 
+> [!IMPORTANT]
+> **This is still in development, not ready for production.**
+> To-do:
+> - Fix all bugs, see TODO's in code
+> - Implement layout components: Box, Layout
+> - Implement meta components: Head, Style
+> - Implement ui components: todoist?notion , mainNav, SpotifyClone , Divider
+> - Add away to add asset loaders, for styles and for images
+> - Add unit tests
+
 # 🔥Features
 
 - Access to hundreds of apps and modules for a single price.

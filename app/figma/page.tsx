@@ -35,24 +35,24 @@ export default function Page() {
   
 
 
-  useEffect(() => {
-    const canvas = initializeFabric({canvasRef, fabricRef})
+  // useEffect(() => {
+  //   const canvas = initializeFabric({canvasRef, fabricRef})
 
-    canvas.on("mouse:down", (options) => {
-      handleCanvasMouseDown({
-        options,
-        canvas,
-        selectedShapeRef,
-        isDrawing,
-        shapeRef,
-      });
-    });
+  //   canvas.on("mouse:down", (options) => {
+  //     handleCanvasMouseDown({
+  //       options,
+  //       canvas,
+  //       selectedShapeRef,
+  //       isDrawing,
+  //       shapeRef,
+  //     });
+  //   });
 
-    window.addEventListener("resize", () => {
-      handleResize({ canvas: fabricRef.current })
-    });
+  //   window.addEventListener("resize", () => {
+  //     handleResize({ canvas: fabricRef.current })
+  //   });
   
-  }, [])
+  // }, [])
   
 
   return (
