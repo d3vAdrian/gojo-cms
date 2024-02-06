@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,9 +6,8 @@
 @import "@liveblocks/react-comments/styles.css";
 
 * {
-  font-family:
-    work sans,
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 @layer utilities {

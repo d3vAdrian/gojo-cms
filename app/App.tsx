@@ -27,8 +27,8 @@ import { defaultNavElement } from "@/constants";
 import { ActiveElement, Attributes } from "@/types/type";
 
 export default function Page() {
-  const canvasRef= useRef<HTMLCanvasElement>(null)
-  const fabricRef = useRef<fabric.Canvas | null>(null)
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const fabricRef = useRef<fabric.Canvas | null>(null);
   const isDrawing = useRef(false)
   const shapeRef = useRef<fabric.Object | null>(null)
   const selectedShapeRef = useRef<string | null>(null)
