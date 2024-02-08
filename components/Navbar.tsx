@@ -146,9 +146,9 @@ export function Navbar() {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-        <div className="flex items-center gap-2 px-2">
-            <Link href=''><h3 className="text-[15px]">Sign in</h3></Link>
-            <Link href=''><h3 className="text-[15px] px-4 py-2 bg-orange-500 rounded-full text-white">Get started</h3></Link>
+        <div className="flex items-center gap-4 px-2">
+            <Link href=''><h3 className="text-[15px] ">Sign in</h3></Link>
+            <Link href=''><h3 className="text-[15px] font-semibold px-4 py-2 bg-slate-700 rounded-full text-white">Get started</h3></Link>
         </div>
       </div>
     </>

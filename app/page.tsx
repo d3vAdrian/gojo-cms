@@ -10,7 +10,7 @@ const page = () => {
     <>
       <Navbar/>
       <Body/>
-      <Footer/>
+      {/* <Footer/> */}
       {/* <CollaborativeApp/> */}
     </>
   )

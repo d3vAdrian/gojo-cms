@@ -4,7 +4,7 @@ const Footer = ()=> {
             <div className="bg-slate-500 ">
                 <h1 className="text-[1.5rem] font-bold flex justify-center py-4 text-white">GOJO</h1>
                 <Links/>
-                <h1 className=" font-bold flex justify-center py-4 text-slate-300 text-[14px] items-center bg-slate-600">Website made with <span className="animate-pulse text-lg px-1">😍</span></h1>
+                <h1 className=" font-bold flex justify-center py-3 text-slate-300 text-[14px] items-center bg-slate-600">Website made with <span className="animate-pulse text-md px-1">😍</span></h1>
             </div>
         </>
     )
